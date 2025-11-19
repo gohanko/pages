@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yii Kuo Chong</title>
-    <link>https://yiikuochong.com/tags/</link>
+    <link>https://gohanko.github.io/pages/tags/</link>
     <description>Recent content in Tags on Yii Kuo Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yiikuochong.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gohanko.github.io/pages/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>job-hunting</title>
-      <link>https://yiikuochong.com/tags/job-hunting/</link>
+      <link>https://gohanko.github.io/pages/tags/job-hunting/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/job-hunting/</guid>
+      <guid>https://gohanko.github.io/pages/tags/job-hunting/</guid>
       <description></description>
     </item>
     <item>
       <title>labour-market</title>
-      <link>https://yiikuochong.com/tags/labour-market/</link>
+      <link>https://gohanko.github.io/pages/tags/labour-market/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/labour-market/</guid>
+      <guid>https://gohanko.github.io/pages/tags/labour-market/</guid>
       <description></description>
     </item>
     <item>
       <title>singapore</title>
-      <link>https://yiikuochong.com/tags/singapore/</link>
+      <link>https://gohanko.github.io/pages/tags/singapore/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/singapore/</guid>
+      <guid>https://gohanko.github.io/pages/tags/singapore/</guid>
       <description></description>
     </item>
     <item>
       <title>software-engineering</title>
-      <link>https://yiikuochong.com/tags/software-engineering/</link>
+      <link>https://gohanko.github.io/pages/tags/software-engineering/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/software-engineering/</guid>
+      <guid>https://gohanko.github.io/pages/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>tech</title>
-      <link>https://yiikuochong.com/tags/tech/</link>
+      <link>https://gohanko.github.io/pages/tags/tech/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/tech/</guid>
+      <guid>https://gohanko.github.io/pages/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>android</title>
-      <link>https://yiikuochong.com/tags/android/</link>
+      <link>https://gohanko.github.io/pages/tags/android/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/android/</guid>
+      <guid>https://gohanko.github.io/pages/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>hello</title>
-      <link>https://yiikuochong.com/tags/hello/</link>
+      <link>https://gohanko.github.io/pages/tags/hello/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/hello/</guid>
+      <guid>https://gohanko.github.io/pages/tags/hello/</guid>
       <description></description>
     </item>
     <item>
       <title>javascript</title>
-      <link>https://yiikuochong.com/tags/javascript/</link>
+      <link>https://gohanko.github.io/pages/tags/javascript/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/javascript/</guid>
+      <guid>https://gohanko.github.io/pages/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>react-native</title>
-      <link>https://yiikuochong.com/tags/react-native/</link>
+      <link>https://gohanko.github.io/pages/tags/react-native/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/react-native/</guid>
+      <guid>https://gohanko.github.io/pages/tags/react-native/</guid>
       <description></description>
     </item>
     <item>
       <title>reverse-engineering</title>
-      <link>https://yiikuochong.com/tags/reverse-engineering/</link>
+      <link>https://gohanko.github.io/pages/tags/reverse-engineering/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/reverse-engineering/</guid>
+      <guid>https://gohanko.github.io/pages/tags/reverse-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>world</title>
-      <link>https://yiikuochong.com/tags/world/</link>
+      <link>https://gohanko.github.io/pages/tags/world/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/tags/world/</guid>
+      <guid>https://gohanko.github.io/pages/tags/world/</guid>
       <description></description>
     </item>
   </channel>

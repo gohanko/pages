@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Yii Kuo Chong</title>
-    <link>https://yiikuochong.com/posts/</link>
+    <link>https://gohanko.github.io/pages/posts/</link>
     <description>Recent content in Posts on Yii Kuo Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yiikuochong.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gohanko.github.io/pages/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My experience with job hunting in Singapore as a Software Engineer</title>
-      <link>https://yiikuochong.com/posts/my-experience-with-job-hunting-in-singapore/</link>
+      <link>https://gohanko.github.io/pages/posts/my-experience-with-job-hunting-in-singapore/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/posts/my-experience-with-job-hunting-in-singapore/</guid>
+      <guid>https://gohanko.github.io/pages/posts/my-experience-with-job-hunting-in-singapore/</guid>
       <description>It&amp;rsquo;s a dream of a lot of Malaysians to find work in Singapore - mostly due to the 3.5 exchange rate, and I was one of those people.
 So equipped with 3 years of software development experience, and freshly out of university I went hunting for a job in Singapore for about 4 months. Here are my experience.
 TLDR: As of March 2025, the Singaporean tech market is really hard to get into, even for locals.</description>
     </item>
     <item>
       <title>Reverse Engineering Hi-Hive Community</title>
-      <link>https://yiikuochong.com/posts/reverse-engineering-hi-hive-community/</link>
+      <link>https://gohanko.github.io/pages/posts/reverse-engineering-hi-hive-community/</link>
       <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://yiikuochong.com/posts/reverse-engineering-hi-hive-community/</guid>
+      <guid>https://gohanko.github.io/pages/posts/reverse-engineering-hi-hive-community/</guid>
       <description>During COVID-19, my university (UTAR) debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 After using the application for a few years, I noticed that it was too bloated with unnecessary features, it&amp;rsquo;s not very responsive, and important items are buried in unending levels of menus.
 Thus, I have the idea of rebuilding the application using Kotlin, Jetpack Compose, and more modern UI frameworks.</description>
