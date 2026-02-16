@@ -5,7 +5,7 @@ theme: "PaperMod"
 googleAnalytics: ""
 enableRobotsTxt: true
 permalinks:
-  posts: "/posts/:contentbasename"
+  posts: "/posts/:filename"
 minify:
     disableXML: true
     minifyOutput: true
