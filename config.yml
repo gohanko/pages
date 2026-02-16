@@ -1,27 +1,22 @@
-baseURL: 'https://gohanko.github.io/pages/'
-languageCode: 'en-us'
+baseURL: "https://gohanko.github.io/pages/"
+languageCode: "en-us"
 title: "Yii Kuo Chong"
-theme: 'PaperMod'
-
-googleAnalytics: G-J2N6RFYFZH
+theme: "PaperMod"
+googleAnalytics: ""
 enableRobotsTxt: true
-
 permalinks:
   posts: "/posts/:filename"
-
 minify:
     disableXML: true
     minifyOutput: true
-
 params:
   env: production
   title: "Welcome to my space!"
   description: "thoughts on web development, cybersecurity and life"
-  keywords: ['reverse engineering', 'android development', 'jetpack compose', 'react', 'web development', 'software development', 'linux']
+  keywords: ["reverse engineering", "android development", "jetpack compose", "react", "web development", "software development", "linux"]
   author: Yii Kuo Chong / 俞國忠
   DateFormat: "January 2, 2006"
-  defaultTheme: dark
-
+  defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -34,16 +29,13 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-
   assets:
     disableHLJS: true
     disableFingerprinting: true
-
   homeInfoParams:
     Title: "Welcome to my home page!"
     Content: |
-      I'm Yii Kuo Chong / 俞國忠 (call me Brandon), and this is a website where I publish my thoughts and knowledge on web and android development, + some other random tech related topics like reverse engineering.
-
+      I"m Yii Kuo Chong / 俞國忠 (call me Brandon), and this is a website where I publish my thoughts and knowledge on web and android development, + some other random tech related topics like reverse engineering.
   socialIcons:
     - name: github
       url: "https://github.com/gohanko"
@@ -53,20 +45,17 @@ params:
       url: "https://t.me/emergencyfood"
     - name: rss
       url: /index.xml
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
 menu:
   main:
     - name: Archive
-      url: archives/
+      url: /archives/
       weight: 5
-      weight: 10
     - name: Tags
-      url: tags/
+      url: /tags/
       weight: 10
     - identifier: About
       name: About
