@@ -8,7 +8,6 @@ on:
       - "README.md"
     branches:
       - main
-      - gh-pages
   workflow_dispatch:
     inputs:
       hugoVersion:
@@ -46,7 +45,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: main
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -63,7 +62,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-
+          
   # Deployment job
   deploy:
     environment:
