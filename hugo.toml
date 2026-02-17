@@ -1,4 +1,4 @@
-baseURL = 'https://gohanko.github.io/pages/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Brandon Yii — Web Engineer'
 theme = "minimal-black"
