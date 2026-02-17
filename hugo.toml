@@ -1,0 +1,345 @@
+baseURL = 'https://gohanko.github.io/pages/'
+languageCode = 'en-us'
+title = 'Brandon Yii — Web Engineer'
+theme = "minimal-black"
+
+# Enable search index generation and web app manifest
+[outputs]
+  home = ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+[outputFormats.WebAppManifest]
+  mediaType = "application/manifest+json"
+  rel = "manifest"
+  baseName = "manifest"
+  isPlainText = true
+  notAlternative = true
+
+[params]
+  brand = "Bubble Tea Software"
+  description = "Brandon Yii's personal site — writing about web development, reverse engineering, and the tech industry."
+
+  # Favicon - Place your favicon files in /static/ directory
+  # Supported formats: .ico, .png, .svg
+  favicon = "icons/site-logo.png"
+  appleTouchIcon = "icons/site-logo.png"
+
+  # Logo (optional)
+  logo = "images/site-logo.png"
+
+  # Project and blog intro text
+  projectsIntro = "Selected projects to display list." # Can be empty
+  blogIntro = "" # Can be empty
+
+  # Web App Manifest Configuration (PWA support)
+  [params.manifest]
+    themeColor = "#ccff00"
+    backgroundColor = "#000000"
+    categories = ["blog", "portfolio", "developer"]
+
+    # Custom icon configuration (optional)
+    # If not specified, defaults to /icons/android-chrome-*.png
+    # [[params.manifest.icons]]
+    #   src = "/icons/android-chrome-192x192.png"
+    #   sizes = "192x192"
+    #   type = "image/png"
+    #   purpose = "any maskable"
+
+  # Theme Configuration
+  [params.theme]
+    defaultTheme = "system"  # Options: "light", "dark", "system"
+
+  # Home Page Configuration
+  [params.home]
+    sections = ["hero", "now", "tech-marquee", "projects", "posts"]
+    showNowSection = true
+    showFeaturedProjects = true
+    showLatestPosts = true
+    featuredProjectsLimit = 3
+    latestPostsLimit = 3
+    projectsTitle = "Selected Work"
+    projectsSubtitle = ""
+    blogTitle = "Latest Writing"
+    blogSubtitle = ""
+    techMarqueeLabel = "Experienced In"
+
+    # Technology Stack Display
+    [[params.home.tech]]
+      label = "HTML5"
+      icon = "devicon-html5-plain"
+
+    [[params.home.tech]]
+      label = "Typescript"
+      icon = "devicon-typescript-plain"
+
+    [[params.home.tech]]
+      label = "React"
+      icon = "devicon-react-original"
+
+    [[params.home.tech]]
+      label = "Zustand"
+      icon = "devicon-zustand-plain"
+
+    [[params.home.tech]]
+      label = "NextJS"
+      icon = "devicon-nextjs-plain"
+
+    [[params.home.tech]]
+      label = "StorybookJS"
+      icon = "devicon-storybookjs-plain"
+
+    [[params.home.tech]]
+      label = "Figma"
+      icon = "devicon-figma-plain" 
+
+    [[params.home.tech]]
+      label = "Python"
+      icon = "devicon-python-plain"
+
+    [[params.home.tech]]
+      label = "FastAPI"
+      icon = "devicon-fastapi-plain"
+
+    [[params.home.tech]]
+      label = "DJango"
+      icon = "devicon-django-plain"
+
+    [[params.home.tech]]
+      label = "Flask"
+      icon = "devicon-flask-plain"
+
+    [[params.home.techReverse]]
+      label = "PostgreSQL"
+      icon = "devicon-postgresql-plain"
+
+    [[params.home.techReverse]]
+      label = "SASS"
+      icon = "devicon-sass-plain"
+
+    [[params.home.techReverse]]
+      label = "Tailwind CSS"
+      icon = "devicon-tailwindcss-plain"
+
+    [[params.home.techReverse]]
+      label = "Nginx"
+      icon = "devicon-nginx-plain"
+
+    [[params.home.techReverse]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[params.home.techReverse]]
+      label = "Git"
+      icon = "devicon-git-plain"
+
+    [[params.home.techReverse]]
+      label = "GitHub"
+      icon = "devicon-github-plain"
+
+    [[params.home.techReverse]]
+      label = "Linux"
+      icon = "devicon-linux-plain"
+
+    [[params.home.techReverse]]
+      label = "GitLab"
+      icon = "devicon-gitlab-plain"
+
+    [[params.home.techReverse]]
+      label = "Bash"
+      icon = "devicon-bash-plain"
+
+    [[params.home.techReverse]]
+      label = "BitBucket"
+      icon = "devicon-bitbucket-plain"
+
+  # About Page Alternative Layout Configuration - Optional
+  [params.about.alt]
+    # Stats displayed in the profile card sidebar
+    [[params.about.alt.stats]]
+      value = "4+"
+      label = "Years Coding"
+
+    [[params.about.alt.stats]]
+      value = "10+"
+      label = "Projects"
+
+    [[params.about.alt.stats]]
+      value = "∞"
+      label = "Hours Spent"
+
+    # Skills/Tech Stack badges with icons
+    [[params.about.alt.skills]]
+      label = "JavaScript"
+      icon = "devicon-javascript-plain"
+
+    [[params.about.alt.skills]]
+      label = "Python"
+      icon = "devicon-python-plain"
+
+    [[params.about.alt.skills]]
+      label = "React"
+      icon = "devicon-react-original"
+
+    [[params.about.alt.skills]]
+      label = "Docker"
+      icon = "devicon-docker-plain"
+
+    [[params.about.alt.skills]]
+      label = "PostgreSQL"
+      icon = "devicon-postgresql-plain"
+
+    [[params.about.alt.skills]]
+      label = "AWS"
+      icon = "devicon-amazonwebservices-plain"
+
+  # Hero Section Configuration
+  [params.hero]
+    badge = "Web Engineer"
+    title = "Hi, I'm Brandon Yii"
+    role = "I build fast, accessible websites for companies across Southeast Asia."
+    summary = "Web engineer with 4+ years of experience building performant, accessible frontends. Previously led the frontend development of Income Insurance's marketing website. I care about clean code, good UX, and getting things shipped on time."
+    # avatar = "images/avatar.jpg"  # Optional: 400x400px recommended
+    location = "Kuala Lumpur, Malaysia"
+    focus = "Currently focused on React and Shopify apps."
+    available = true
+    availableLabel = "Available for work"
+
+    nowLabel = "Quick Facts"
+    nowIntro = "Right now I'm mainly:"
+    now = [
+      "Building React and Shopify frontends for clients",
+      "Experimenting with LLMs to accelerate development workflows",
+      "Writing about web dev, reverse engineering, and the tech industry",
+      "Open to freelance and full-time opportunities",
+    ]
+
+    [params.hero.primary]
+      label = "View Projects"
+      href = "/projects/"
+
+    [params.hero.secondary]
+      label = "Read the Blog"
+      href = "/blog/"
+
+  # Icon Libraries
+  [params.icons]
+    useFontAwesome = true
+    useDevicon = true
+
+  # Social Links
+  [[params.social]]
+    label = "GitHub"
+    url = "https://github.com/gohanko"
+    icon = "fa-brands fa-github"
+
+  [[params.social]]
+    label = "LinkedIn"
+    url = "https://www.linkedin.com/in/gohanko/"
+    icon = "fa-brands fa-linkedin-in"
+
+  [[params.social]]
+    label = "Email"
+    url = "mailto:byu1628@proton.me"
+    icon = "fa-regular fa-envelope"
+
+  # Analytics Configuration
+  [params.analytics]
+    # Google Analytics (GA4)
+    # googleAnalytics = "G-XXXXXXXXXX"
+
+    # Plausible Analytics (privacy-friendly)
+    # [params.analytics.plausible]
+    #   enabled = true
+    #   domain = "yourdomain.com"
+    #   scriptUrl = "https://plausible.io/js/script.js"
+
+    # Umami Analytics (self-hosted option)
+    # [params.analytics.umami]
+    #   enabled = true
+    #   scriptUrl = "https://analytics.yourdomain.com/script.js"
+    #   websiteId = "your-website-id"
+
+    # Fathom Analytics
+    # [params.analytics.fathom]
+    #   enabled = true
+    #   scriptUrl = "https://cdn.usefathom.com/script.js"
+    #   siteId = "YOUR-SITE-ID"
+
+# Navigation Menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "home"
+    url = "/"
+    weight = 1
+    identifier = "home"
+    [menu.main.params]
+      icon = "fa-regular fa-house"
+
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "blog"
+    url = "/blog/"
+    weight = 2
+    identifier = "blog"
+    [menu.main.params]
+      icon = "fa-regular fa-note-sticky"
+
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "projects"
+    url = "/projects/"
+    weight = 3
+    identifier = "projects"
+    [menu.main.params]
+      icon = "fa-regular fa-folder-open"
+      
+# Markup Configuration
+[markup]
+  # Table of Contents
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+  # Goldmark Renderer (Markdown)
+  [markup.goldmark.renderer]
+    unsafe = true
+
+  [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+
+  [markup.goldmark.extensions]
+    typographer = true
+    linkify = true
+    table = true
+    strikethrough = true
+    taskList = true
+    definitionList = true
+    footnote = true
+
+    [markup.goldmark.extensions.extras.delete]
+      enable = true
+    [markup.goldmark.extensions.extras.insert]
+      enable = true
+    [markup.goldmark.extensions.extras.mark]
+      enable = true
+
+  # Syntax Highlighting
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
+    style = "monokai"
+    tabWidth = 2
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Privacy Configuration
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
