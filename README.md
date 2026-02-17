@@ -1,12 +1,28 @@
-# pages
-Blogging and notes site to document my learning journey.
+# Bubble Tea Software
+Personal portfolio and blog built with [Hugo](https://gohugo.io/) and the [minimal-black](gitlab.com/jimchr12/hugo-minimal-black) theme.
 
-Uses Hugo and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+## Requirements
+- [Hugo](https://gohugo.io/installation/) (extended edition, v0.155.0+)
 
-## Requirement & Install
-The only requirement to run this project is Hugo (at least v0.121.0).
+## Getting Started
+```bash
+# Clone the repository with submodules
+git clone --recurse-submodules https://github.com/gohanko/pages.git
+cd pages
 
-To run the project:
+# Start the development server
+hugo server -D
+```
 
-1. Clone the project.
-2. In the root folder, run `hugo`
+## Build
+```bash
+hugo --minify
+```
+
+Output will be in the `public/` directory.
+
+## Project Structure
+- `content/blog/` — Blog posts
+- `content/projects/` — Project showcases
+- `themes/minimal-black/` — Theme (git submodule)
+- `hugo.toml` — Site configuration
