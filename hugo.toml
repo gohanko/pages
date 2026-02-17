@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Yii Kuo Chong'
+title = 'Bubble Tea Software'
 theme = "minimal-black"
 
 # Enable search index generation and web app manifest
@@ -15,16 +15,16 @@ theme = "minimal-black"
   notAlternative = true
 
 [params]
-  brand = "Welcome to my space!"
+  brand = "Bubble Tea Software"
   description = "thoughts on web development, cybersecurity and life"
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
-  # favicon = "icons/favicon.svg"
-  # appleTouchIcon = "apple-touch-icon.png"
+  favicon = "icons/site-logo.png"
+  appleTouchIcon = "icons/site-logo.png"
 
   # Logo (optional)
-  # logo = "images/logo.png"
+  logo = "images/site-logo.png"
 
   # Project and blog intro text
   projectsIntro = "Selected projects to display list." # Can be empty
@@ -266,41 +266,32 @@ theme = "minimal-black"
 # Navigation Menu
 [menu]
   [[menu.main]]
-    name = "Engineering Blog"
+    name = "Home"
+    pageRef = "home"
+    url = "/"
+    weight = 1
+    identifier = "home"
+    [menu.main.params]
+      icon = "fa-regular fa-house"
+
+  [[menu.main]]
+    name = "Blog"
     pageRef = "blog"
     url = "/blog/"
-    weight = 1
+    weight = 2
     identifier = "blog"
     [menu.main.params]
       icon = "fa-regular fa-note-sticky"
 
   [[menu.main]]
-    name = "Products"
-    pageRef = "products"
-    url = "/products/"
-    weight = 2
-    identifier = "products"
-    [menu.main.params]
-      icon = "fa-regular fa-folder-open"
-
-  [[menu.main]]
     name = "Projects"
     pageRef = "projects"
     url = "/projects/"
-    weight = 2
+    weight = 3
     identifier = "projects"
     [menu.main.params]
       icon = "fa-regular fa-folder-open"
-
-  [[menu.main]]
-    name = "Hire Me"
-    pageRef = "hire-me"
-    url = "/hire-me/"
-    weight = 3
-    identifier = "hire-me"
-    [menu.main.params]
-      icon = "fa-regular fa-user"
-
+      
 # Markup Configuration
 [markup]
   # Table of Contents
