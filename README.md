@@ -1,5 +1,5 @@
 # Bubble Tea Software
-Personal portfolio and blog built with [Hugo](https://gohugo.io/) and the [minimal-black](gitlab.com/jimchr12/hugo-minimal-black) theme.
+Personal portfolio and blog built with [Hugo](https://gohugo.io/) and the [minimal-black](https://gitlab.com/jimchr12/hugo-minimal-black) theme.
 
 ## Requirements
 - [Hugo](https://gohugo.io/installation/) (extended edition, v0.155.0+)
