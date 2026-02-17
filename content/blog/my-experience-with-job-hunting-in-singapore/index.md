@@ -1,9 +1,9 @@
----
-title: "My experience with job hunting in Singapore as a Software Engineer"
-draft: false
-date: 2025-03-16
-tags: ['job-hunting', 'software-engineering', 'tech', 'labour-market', 'singapore']
----
++++
+title = "My experience with job hunting in Singapore as a Software Engineer"
+date = "2025-03-16"
+tags = ["job-hunting", "software-engineering", "tech", "labour-market", "singapore"]
+draft = false
++++
 
 It's a dream of a lot of Malaysians to find work in Singapore - mostly due to the 3.5 exchange rate, and I was one of those people.
 

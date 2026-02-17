@@ -1,8 +1,8 @@
----
-title: "Reverse Engineering Hi-Hive Community"
-date: 2024-09-09
-tags: ['react-native', 'android', 'javascript', 'reverse-engineering']
----
++++
+title = "Reverse Engineering Hi-Hive Community"
+date = "2024-09-09"
+tags = ["react-native", "android", "javascript", "reverse-engineering"]
++++
 
 During COVID-19, my university ([UTAR](https://utar.edu.my/)) debuted an attendance tracking called Hi-Hive Community. A lecturer would present a QR code, and the students will scan it to take attendance.
 
