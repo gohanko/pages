@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Bubble Tea Software'
+title = 'Brandon Yii — Web Engineer'
 theme = "minimal-black"
 
 # Enable search index generation and web app manifest
@@ -16,7 +16,7 @@ theme = "minimal-black"
 
 [params]
   brand = "Bubble Tea Software"
-  description = "thoughts on web development, cybersecurity and life"
+  description = "Brandon Yii's personal site — writing about web development, reverse engineering, and the tech industry."
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
@@ -194,9 +194,9 @@ theme = "minimal-black"
   # Hero Section Configuration
   [params.hero]
     badge = "Web Engineer"
-    title = "I'm Yii Kuo Chong / 俞國忠 (call me Brandon)"
-    role = "I built React and Shopify sites for a living."
-    summary = "You can write your summary to be displayed here."
+    title = "Hi, I'm Brandon Yii"
+    role = "I build fast, accessible websites for companies across Southeast Asia."
+    summary = "Web engineer with 4+ years of experience building performant, accessible frontends. Previously led the frontend development of Income Insurance's marketing website. I care about clean code, good UX, and getting things shipped on time."
     # avatar = "images/avatar.jpg"  # Optional: 400x400px recommended
     location = "Kuala Lumpur, Malaysia"
     focus = "Currently focused on React and Shopify apps."
@@ -206,9 +206,10 @@ theme = "minimal-black"
     nowLabel = "Quick Facts"
     nowIntro = "Right now I'm mainly:"
     now = [
-      "Building traditional HTML/CSS/JS, React, and Shopify sites",
-      "Exploring the use of LLMs for speeding up the coding process",
-      "Writing about tech in general"
+      "Building React and Shopify frontends for clients",
+      "Experimenting with LLMs to accelerate development workflows",
+      "Writing about web dev, reverse engineering, and the tech industry",
+      "Open to freelance and full-time opportunities",
     ]
 
     [params.hero.primary]
