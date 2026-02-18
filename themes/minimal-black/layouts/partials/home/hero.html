@@ -64,13 +64,13 @@
     <!-- CTAs -->
     <div class="mt-4 flex flex-wrap items-center gap-3">
       {{ with $hero.primary }}
-        <a href="{{ (.href | default "/projects/") | relURL }}" class="btn-primary">
+        <a href="{{ .href | default "/projects/" }}" class="btn-primary">
           {{ .label | default "View projects" }}
         </a>
       {{ end }}
 
       {{ with $hero.secondary }}
-        <a href="{{ (.href | default "/blog/") | relURL }}" class="btn-ghost link-underline">
+        <a href="{{ .href | default "/blog/" }}" class="btn-ghost link-underline">
           {{ .label | default "Read the blog" }}
         </a>
       {{ end }}
