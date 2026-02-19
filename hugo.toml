@@ -15,7 +15,7 @@ theme = "minimal-black"
   notAlternative = true
 
 [params]
-  brand = "Bubble Tea Software"
+  brand = "/pages/"
   description = "Brandon Yii's personal site — writing about web development, reverse engineering, and the tech industry."
 
   # Favicon - Place your favicon files in /static/ directory

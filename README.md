@@ -1,4 +1,4 @@
-# Bubble Tea Software
+# /pages/
 Personal portfolio and blog built with [Hugo](https://gohugo.io/) and the [minimal-black](https://gitlab.com/jimchr12/hugo-minimal-black) theme.
 
 ## Requirements
