@@ -244,7 +244,7 @@ theme = "minimal-black"
   # Analytics Configuration
   [params.analytics]
     # Google Analytics (GA4)
-    # googleAnalytics = "G-XXXXXXXXXX"
+    googleAnalytics = "G-J2N6RFYFZH"
 
     # Plausible Analytics (privacy-friendly)
     # [params.analytics.plausible]
