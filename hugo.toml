@@ -1,6 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Brandon Yii — Web Engineer'
+title = 'Brandon Yii - Frontend Engineer'
 theme = "minimal-black"
 
 # Enable search index generation and web app manifest
@@ -193,10 +193,10 @@ theme = "minimal-black"
 
   # Hero Section Configuration
   [params.hero]
-    badge = "Web Engineer"
+    badge = "Frontend Engineer"
     title = "Hi, I'm Brandon Yii"
     role = "I build fast, accessible websites for companies across Southeast Asia."
-    summary = "Web engineer with 4+ years of experience building performant, accessible frontends. Previously led the frontend development of Income Insurance's marketing website. I care about clean code, good UX, and getting things shipped on time."
+    summary = "Frontend Engineer with 4+ years of experience building performant, accessible frontends. Previously led the frontend development of Income Insurance's marketing website. I care about clean code, good UX, and getting things shipped on time."
     # avatar = "images/avatar.jpg"  # Optional: 400x400px recommended
     location = "Kuala Lumpur, Malaysia"
     focus = "Currently focused on React and Shopify apps."
